@@ -189,8 +189,7 @@ body>.navbar .brand:hover {
     margin-right: 20px;*/
 	border-radius: 4px;
 	box-shadow: 1px 1px 2px 0px #E0E0E0;
-	width: 100%;
-	max-width: 487px
+	width: 487px;
 	height: 616px;
 }
 
@@ -549,64 +548,4 @@ ul.sponsors {
 #footer address {
 	color: #8F8F8F;
 	font-size: 11px;
-}
-
-@media (max-width: 768px) {
-	.container {
-		padding: 0 10px;
-		width: 100%;
-		max-width: 100%;
-	}
-
-	.navbar .nav {
-		display: block;
-		width: 100%;
-	}
-
-	.navbar .nav li {
-		display: block;
-		width: 100%;
-		text-align: center;
-		border-bottom: 1px solid #ccc;
-	}
-
-	.navbar .nav li a {
-		display: block;
-		padding: 10px;
-		border-left: none;
-		border-right: none;
-		border-radius: 0;
-	}
-
-	#media .post_row {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	#media .post_row .post {
-		width: 100%;
-		height: auto;
-		margin-bottom: 20px;
-	}
-
-	#media .post_row .post .img img {
-		width: 100%;
-		height: auto;
-	}
-
-	.feature-item img {
-		height: auto;
-		width: 100%;
-	}
-
-	.section-header h1,
-	.title-text {
-		font-size: 24px;
-		line-height: 36px;
-	}
-
-	iframe.map-frame {
-		height: 300px;
-	}
 }
