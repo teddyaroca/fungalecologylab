@@ -485,6 +485,8 @@ img.publications-thumb {
 
 img.carousel-image {
 	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
 }
 
 li.publication {
