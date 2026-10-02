@@ -612,3 +612,17 @@ ul.sponsors {
 		height: 300px;
 	}
 }
+
+.row-fluid.news-row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    width: 100%;
+}
+
+.row-fluid.news-row .span4 {
+    float: none !important;
+    width: 33.333333% !important;
+    margin-left: 0 !important;
+    box-sizing: border-box;
+    flex: 0 0 33.333333%;
+}
